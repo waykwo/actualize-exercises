@@ -1,0 +1,7 @@
+Hello! I'm Wayne Kwok. I dabbled in some Wordpress admin and "design" many years 
+ago. I also started learning Python a few years ago and have enjoyed it ever 
+since. I did build some pretty functional scripts in Python but my employer 
+got acquired and the new employer doesn't really want to create a big dependency 
+on Python so I now do a lot of Power Automate. I would like to broaden my coding 
+skills so that I am familiar with both front and back end and be able to grow 
+my career.
