@@ -3,7 +3,8 @@
 # New York City (8.4 million) and San Francisco (800,000).
 city_populations = { "Chicago" => 2700000 }  # (don't change this line)
 # Your code goes here
-
+city_populations["New York City"] = 8400000
+city_populations["San Francisco"] = 800000
 pp city_populations
 
 
@@ -12,6 +13,6 @@ pp city_populations
 # in the my_pets hash equals 2. However, the code doesn't work.
 # Explain why the code doesn't work and fix the mistake.
 my_pets = { "dogs" => 2, "cats" => 1, "fish" => 5 }
-if my_pets[2] == "dogs"
+if my_pets["dogs"] == 2 # my_pets[2] returns nil and is not the right way to get the value for dogs
   puts "I have 2 dogs!"
 end
