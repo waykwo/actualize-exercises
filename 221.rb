@@ -20,4 +20,6 @@ pp second_numbers
 # If not, describe the part you got stuck on that requires more practice.
 #   I referenced the syntax for the each loop from the chapter. I'm aware of 
 #   methods to append to arrays from Python but never learned to do it in 
-#   Ruby so I had to look that up specifically.
+#   Ruby so I had to look that up specifically. My answer was also different
+#   from the provided answer so I will practice more each loops and appending 
+#   to arrays using different methods.
