@@ -126,8 +126,9 @@ end
 pp counts.max
 
 # Lookup the word by highest count
+highest = word_count.select {|hash| hash[:count] == counts.max}
+pp highest
 
-
-puts "#{word_count[0][:word]} was your most common word"
+puts "#{highest[0][:word]} was your most common word"
 
 # What if there's a tie?
