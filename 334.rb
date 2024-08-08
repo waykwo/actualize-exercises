@@ -123,7 +123,7 @@ counts = []
 word_count.each do |item|
   counts << item[:count]
 end
-pp counts
+pp counts.max
 
 # Lookup the word by highest count
 
