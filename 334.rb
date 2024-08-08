@@ -108,7 +108,7 @@ words.uniq do |unique_word|
   word_count << {word: unique_word, count: count}
 end
 
-# If there are any coutns greater than 1, sort the array by count
+# If there are any counts greater than 1, sort the array by count
 if word_count.any? {|item| item[:count] > 1}
   word_count = word_count.uniq.sort_by! {|item| item[:count].size}
 end
@@ -132,3 +132,16 @@ pp highest
 puts "#{highest[0][:word]} was your most common word"
 
 # What if there's a tie?
+ties = []
+if highest.count > 1
+  highest.each do |tie|
+    ties << tie[:word]
+  end  
+end
+pp ties
+
+if highest.count > 1
+  puts "#{ties} were tied for your most common words!"
+else
+  puts "#{highest[0][:word]} was your most common word"
+end
