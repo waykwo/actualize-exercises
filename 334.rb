@@ -115,7 +115,18 @@ end
 # pp word_count
 # NOTE: I tested this again and no matter what I do when I sort, it sorts the 
 # hash by word, not by the count. So the statement below doesn't technically
-# work
+# work. I'm stuck on how to sort by the count. I might have to put the counts 
+# into its own array and then try to lookup the word by the highest count.
+
+# Shovel the counts into another array
+counts = []
+word_count.each do |item|
+  counts << item[:count]
+end
+pp counts
+
+# Lookup the word by highest count
+
 
 puts "#{word_count[0][:word]} was your most common word"
 
