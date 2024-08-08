@@ -113,6 +113,9 @@ if word_count.any? {|item| item[:count] > 1}
   word_count = word_count.uniq.sort_by! {|item| item[:count].size}
 end
 # pp word_count
+# NOTE: I tested this again and no matter what I do when I sort, it sorts the 
+# hash by word, not by the count. So the statement below doesn't technically
+# work
 
 puts "#{word_count[0][:word]} was your most common word"
 
