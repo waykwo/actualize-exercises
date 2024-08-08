@@ -141,7 +141,7 @@ end
 pp ties
 
 if highest.count > 1
-  puts "#{ties} were tied for your most common words!"
+  puts "#{ties.join(", ")} were tied for your most common words!"
 else
   puts "#{highest[0][:word]} was your most common word"
 end
