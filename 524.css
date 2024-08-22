@@ -1,0 +1,11 @@
+h1, h2 {
+    color: green;
+}
+
+ol li {
+    color: red;
+}
+
+.do_not_forget {
+    color: blue;
+}
