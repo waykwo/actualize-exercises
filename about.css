@@ -1,0 +1,73 @@
+.raleway-google-font> {
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+}
+
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: darkslategray;
+    margin: 0;
+    background-color: azure;
+}
+
+main, section {
+    max-width: 50em;
+    margin: 0 auto;
+    line-height: 1.5;
+    padding: 0.5em 1em;
+    /* border: 1px black solid; */
+}
+
+h2 {
+    padding-left: 0.3em;
+    color: darkslateblue;
+}
+
+a {
+    color: rgb(255, 180, 0);
+}
+
+header {
+    background-image: url("https://i.pinimg.com/originals/dd/c8/84/ddc8847a215a00f23d07f3e9663ba2df.jpg");
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    line-height: 1.2;
+    padding: 5vw 2em;
+    margin-bottom: 2em;
+}
+
+header h1 {
+    font-family: 'Raleway', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: azure;
+    font-size: 2.5em;
+    font-weight: 600;
+}
+
+header a {
+    border: 1px solid rgb(255, 180, 0);
+    border-radius: 2em;
+    color: white;
+    font-size: 0.6em;
+    letter-spacing: 0.2em;
+    padding: 1em 2em;
+    text-transform: uppercase;
+    text-decoration: none;
+    transition-property: color, background;
+    transition-duration: 200ms;
+}
+
+header a:hover {
+    background: rgb(255, 180, 0);
+    color: darkolivegreen;
+}
+
+footer {
+    background-image: url("https://i.pinimg.com/originals/dd/c8/84/ddc8847a215a00f23d07f3e9663ba2df.jpg");
+    text-align: center;
+    padding: 2vw 2em;
+    margin-top: 2em;
+}
