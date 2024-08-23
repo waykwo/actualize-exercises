@@ -45,7 +45,7 @@ header {
 }
 
 header h1 {
-    font-family: 'Englebert', cursive;
+    font-family: 'Englebert', 'Trebuchet MS', Arial, sans-serif;
     color: azure;
     font-size: 5em;
     margin-bottom: 0.15em;
